@@ -1,5 +1,5 @@
 .maina {
-    max-width: 1620px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -9,7 +9,7 @@
 
 .mainb {
     background-color: #040C18;
-    ;
+    max-width: 100%;
 
 }
 
@@ -17,7 +17,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #111;
     color: #fff;
-    margin: 0;
+    margin: 0px ;
+    padding: 0px;
+    width: fit-content;
+    
 }
 
 /* Navbar styling */
@@ -223,6 +226,7 @@ input:focus {
 }
 
 .main3 {
+    width: 1300px;
     height: 600px;
     margin-left: 105px;
     margin-right: 105px;
@@ -886,7 +890,7 @@ input:focus {
 .hb {
     display: flex;
     flex-wrap: wrap;
-    width: 1170.66px;
+    width: 100%;
     height: 696.16px;
     top: 3770.79px;
     left: 134.34px;
@@ -909,7 +913,7 @@ input:focus {
 .hbb img {
     /* margin-left: 110px; */
     margin-top: 120px;
-    width: 350px;
+    width: 380px;
     height: 310px;
     margin-bottom: 0;
     display: grid;
@@ -920,7 +924,7 @@ input:focus {
     /* margin-left: 110px; */
     background: #042C54;
     height: 403px;
-    width: 350px;
+    width: 380px;
     margin-top: 0;
 
 }
@@ -960,7 +964,7 @@ input:focus {
 }
 
 .hc {
-    margin-left: 35px;
+    margin-left: 75px;
 }
 
 .hca {
@@ -1080,7 +1084,7 @@ input:focus {
 .hd {
     display: flex;
     flex-direction: column;
-    margin-left: 31px;
+    margin-left: 41px;
 
 }
 
@@ -1376,15 +1380,21 @@ input:focus {
     .maina {
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
 
 
 
+    }
+
+    .body{
+        width: 1100px;
     }
 
     .header {
 
         height: 120px;
         flex-direction: row;
+        width: 100%;
 
         justify-content: space-between;
 
@@ -1397,9 +1407,9 @@ input:focus {
         /* justify-content: space-between; */
         align-items: center;
         background-color: #040C18;
-        padding-top: 20px;
+        /* padding-top: 20px; */
         width: 880px;
-        margin-left: 110px;
+        /* margin-left: 110px; */
 
     }
 
@@ -1442,12 +1452,7 @@ input:focus {
         cursor: pointer;
     }
 
-    .menu-toggle {
-        display: none;
-        color: white;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
+
 
     .but button {
         width: 95px;
@@ -1459,32 +1464,34 @@ input:focus {
         border: none;
         margin-top: 8px;
     }
+    .main{
+        width: 100%;
+    }
 
     .first {
 
         /* margin-top: 40px; */
-        width: 950px;
+        /* width: 100%; */
         flex-direction: column;
         text-align: center;
-        width: 980px;
-
-        margin-left: -50px;
+        margin-left: 50px;
+        /* width: 980px; */
 
     }
 
-    .first img {
-        margin-left: 350px;
+    .img {
+        margin-left: 300px;
     }
 
     .cont {
-        width: 90%;
-        margin-left: 110px;
-        margin-top: 20px;
+        width: 800px;
+        margin-left: 5%;
+        margin-top: 10%;
     }
 
     .cont h1 {
         font-size: 50px;
-        margin-right: 50px;
+        /* margin-right: 50px; */
 
     }
 
@@ -1507,9 +1514,6 @@ input:focus {
         margin-left: -40px;
         flex-direction: column;
     }
-    .img{
-        margin-left: 20px;
-    }
 
     .spic img {
         margin-left: 0px;
@@ -1522,6 +1526,10 @@ input:focus {
         margin-right: 150px;
         margin-top: 50px;
         justify-content: space-between;
+    }
+
+    .main3{
+        width: 800px;
     }
 
     .main3a {
@@ -1581,7 +1589,10 @@ input:focus {
     .main4a {
         width: 700px;
     }
-
+   .mainab{
+    margin-left: 90px;
+    
+   }
     .a4 {
         width: 20%;
 
@@ -2024,7 +2035,7 @@ input:focus {
     }
 
     .i {
-        width: 990px;
+        width: 1010px;
         height: 980px;
     }
 
@@ -2139,7 +2150,7 @@ input:focus {
     }
 
     .navbar {
-        width: 450px;
+        width: 565px;
         background-color: #040C18;
 
 
@@ -3264,12 +3275,13 @@ input:focus {
     }
 
     .pfea img {
-        width: 300px;
+        width: 250px;
         margin-left: 55px;
     }
 
     .pfeb {
-        margin-right: 145px;
+        width: 250px;
+        /* margin-right: 145px; */
         margin-left: 50px;
         margin-top: 60px;
 
@@ -3305,7 +3317,7 @@ input:focus {
 
 
     .g {
-        width: 300px;
+        width: 280px;
         height: 210px;
         margin-left: 55px;
         flex-direction: column;
