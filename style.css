@@ -2035,7 +2035,7 @@ input:focus {
     }
 
     .i {
-        width: 1010px;
+        width: 1000px;
         height: 980px;
     }
 
@@ -2139,7 +2139,18 @@ input:focus {
 
 @media screen and (max-width: 565px) {
 
+    .maina {
+        margin-left: auto;
+        margin-right: auto;
+        width: 760px;
 
+
+
+    }
+
+    .body{
+        width: 500px;
+    }
 
     .header {
         background-color: #040C18;
@@ -2150,7 +2161,7 @@ input:focus {
     }
 
     .navbar {
-        width: 565px;
+        width: 450px;
         background-color: #040C18;
 
 
@@ -2281,6 +2292,7 @@ input:focus {
 
 
     .main3 {
+        width: 650px;
         margin-left: 50px;
         margin-right: 50px;
         height: fit-content;
