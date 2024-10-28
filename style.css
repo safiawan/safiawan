@@ -226,7 +226,7 @@ input:focus {
 }
 
 .main3 {
-    width: 1300px;
+    width: 1100px;
     height: 600px;
     margin-left: 105px;
     margin-right: 105px;
@@ -890,7 +890,7 @@ input:focus {
 .hb {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
     height: 696.16px;
     top: 3770.79px;
     left: 134.34px;
@@ -2035,7 +2035,7 @@ input:focus {
     }
 
     .i {
-        width: 1000px;
+        width: 990px;
         height: 980px;
     }
 
@@ -2142,14 +2142,17 @@ input:focus {
     .maina {
         margin-left: auto;
         margin-right: auto;
-        width: 760px;
-
-
-
+        /* width: 640px; */
+    }
+    .mainb {
+        background-color: #040C18;
+        max-width: 650px;
+    
     }
 
     .body{
-        width: 500px;
+        /* width: 60px; */
+        /* width: fit-content; */
     }
 
     .header {
@@ -2161,7 +2164,7 @@ input:focus {
     }
 
     .navbar {
-        width: 450px;
+        width: 500px;
         background-color: #040C18;
 
 
@@ -2195,7 +2198,7 @@ input:focus {
 
     .menu-toggle {
         display: block;
-        margin-left: 60px;
+        margin-left: 120px;
     }
 
     .main {
@@ -2209,13 +2212,13 @@ input:focus {
     }
 
     .first img {
-        margin-left: 320px;
+        margin-left: 250px;
     }
 
 
     .cont {
-        width: 90%;
-        margin-left: 110px;
+        width: 500px;
+        /* margin-left: 110px; */
         margin-top: 20px;
     }
 
@@ -2227,7 +2230,7 @@ input:focus {
 
     .cont p {
         width: 450px;
-        margin-left: -10px;
+        margin-left: 20px;
         margin-right: 25px;
         font-size: 17px;
     }
@@ -2292,7 +2295,7 @@ input:focus {
 
 
     .main3 {
-        width: 650px;
+        width: 530px;
         margin-left: 50px;
         margin-right: 50px;
         height: fit-content;
@@ -2401,13 +2404,14 @@ input:focus {
     }
 
     .main4 {
+        width: 520px;
         flex-direction: column;
         margin-top: 50px;
     }
 
     .a4 {
         width: 350px;
-        margin-left: -120px;
+        margin-left: -170px;
 
     }
 
@@ -2423,7 +2427,12 @@ input:focus {
         margin-top: 17px;
 
     }
-
+    .a4ab {
+        width: fit-content;
+        height: 92px;
+        margin-top: 33px;
+        margin-left: 30px;
+    }
     .a4ab p {
 
         font-size: 14px;
@@ -2438,7 +2447,7 @@ input:focus {
 
     .a5 {
         width: 350px;
-        margin-left: -120px;
+        margin-left: -170px;
 
     }
 
@@ -2454,10 +2463,16 @@ input:focus {
         margin-top: 17px;
 
     }
+    .a5ab {
+        width: fit-content;
+        height: 92px;
+        margin-top: 33px;
+        margin-left: 30px;
+    }
 
     .a6 {
         width: 350px;
-        margin-left: -120px;
+        margin-left: -170px;
 
     }
 
@@ -2473,9 +2488,15 @@ input:focus {
         margin-top: 17px;
 
     }
+    .a6ab {
+        width: fit-content;
+        height: 92px;
+        margin-top: 33px;
+        margin-left: 30px;
+    }
 
     .a7 {
-        margin-left: -120px;
+        margin-left: -170px;
 
     }
 
@@ -2491,8 +2512,15 @@ input:focus {
         margin-top: 17px;
 
     }
+    .a7ab {
+        width: fit-content;
+        height: 92px;
+        margin-top: 33px;
+        margin-left: 30px;
+    }
 
     .fea {
+        width: 530px;
         flex-direction: column;
     }
 
@@ -2567,7 +2595,7 @@ input:focus {
     }
 
     .h {
-        height: 1200px;
+        height: 1250px;
     }
 
     .ha {
@@ -2584,28 +2612,28 @@ input:focus {
     }
 
     .hb {
-        width: 510px;
+        width: 550px;
         margin-left: 50px;
 
     }
 
     .hba {
-        width: 200px;
+        width: 250px;
         height: 650px;
 
 
     }
 
     .hbb img {
-        width: 200px;
-        height: 130px;
+        width: 250px;
+        height: 180px;
 
 
     }
 
     .hbc {
         height: 475px;
-        width: 200px;
+        width: 250px;
     }
 
     .hbc h6 {
@@ -2617,22 +2645,22 @@ input:focus {
     }
 
     .hca {
-        width: 200px;
-        height: 130px;
+        width: 250px;
+        height: 180px;
 
     }
 
     .hcaa img {
-        width: 200px;
-        height: 80.47px;
-        top: 3770.79px;
-        left: 602.05px;
+        width: 250px;
+        height: 100.47px;
+        /* top: 3770.79px; */
+        /* left: 602.05px; */
         display: grid;
 
     }
 
     .hcab {
-        width: 200px;
+        width: 250px;
     }
 
     .hcb {
@@ -2658,7 +2686,7 @@ input:focus {
     }
 
     .hcba img {
-        width: 200px;
+        width: 250px;
         height: 80.47px;
         top: 3770.79px;
         left: 602.05px;
@@ -2667,7 +2695,7 @@ input:focus {
     }
 
     .hcbb {
-        width: 200px;
+        width: 250px;
     }
 
     .hcb {
@@ -2699,7 +2727,7 @@ input:focus {
     }
 
     .hdaa img {
-        width: 200px;
+        width: 250px;
         height: 80.47px;
         top: 3770.79px;
         left: 602.05px;
@@ -2708,13 +2736,13 @@ input:focus {
     }
 
     .hdab {
-        width: 200px;
+        width: 250px;
     }
 
     .hdb {
-        width: 200px;
+        width: 250px;
         height: 210px;
-        margin-top: 125px;
+        margin-top: 120px;
 
     }
 
@@ -2734,7 +2762,7 @@ input:focus {
     }
 
     .hdba img {
-        width: 200px;
+        width: 250px;
         height: 80.47px;
         top: 3770.79px;
         left: 602.05px;
@@ -2743,7 +2771,7 @@ input:focus {
     }
 
     .hdbb {
-        width: 200px;
+        width: 250px;
     }
 
     .hdbb p {
@@ -2764,7 +2792,7 @@ input:focus {
 
 
     .i {
-        width: 565px;
+        width: 630px;
         height: 1150px;
     }
 
@@ -2785,7 +2813,7 @@ input:focus {
         line-height: 21.09px;
         text-align: center;
 
-        margin-left: 190px;
+        margin-left: 230px;
         border-radius: 4px;
     }
 
@@ -2796,6 +2824,7 @@ input:focus {
 
     .ica {
         width: 300px;
+        margin-left: 50px;
     }
 
     .ica img {
@@ -2816,7 +2845,7 @@ input:focus {
         margin-top: 180px;
         align-items: center;
         color: white;
-        margin-left: 20px;
+        margin-left: 70px;
 
     }
 
@@ -2841,7 +2870,7 @@ input:focus {
         width: 106px;
         height: 150px;
         color: white;
-        margin-left: 70px;
+        margin-left: 140px;
         margin-top: 180px;
     }
 
@@ -2876,7 +2905,7 @@ input:focus {
         height: 15px;
         margin-top: 150px;
         text-align: center;
-        margin-left: 170px;
+        margin-left: 220px;
 
     }
 
@@ -2902,7 +2931,7 @@ input:focus {
     }
 
     .navbar {
-        width: 280px;
+        width: 450px;
         background-color: #040C18;
 
 
@@ -2934,14 +2963,14 @@ input:focus {
     }
 
     .navbar p {
-        margin-left: 20px;
+        margin-left: 120px;
     }
 
     
 
     .menu-toggle {
         display: block;
-        margin-left: 40px;
+        margin-left: 140px;
     }
 
     .main {
@@ -2951,7 +2980,7 @@ input:focus {
     .first {
         flex-direction: column;
         text-align: center;
-        width: 350px;
+        width: 450px;
     }
 
     .first img {
@@ -2960,45 +2989,45 @@ input:focus {
 
 
     .cont {
-        width: 95%;
-        margin-left: 100px;
+        width: 100%;
+        /* margin-left: 00px; */
         margin-top: 20px;
     }
 
 
     .cont h1 {
-        font-size: 25px;
-        size: 25px;
-        line-height: 45px;
+        font-size: 45px;
+        size: 45px;
+        line-height: 55px;
 
     }
 
     .cont p {
-        width: 280px;
+        width: 450px;
         margin-left: 10px;
         margin-right: 38px;
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 26px;
+        line-height: 45px;
 
     }
 
     .ema {
         margin-top: 50px;
-        margin-left: -20px;
+        margin-left: 10px;
         flex-direction: column;
     }
 
     input {
-        width: 200px;
-        padding: 25px;
-        height: 1px;
+        width: 300px;
+        padding: 35px;
+        height: 4px;
 
     }
 
     .get button {
-        width: 120px;
+        width: 150px;
         margin-top: 20px;
-        height: 45px;
+        height: 65px;
         border-radius: 6px;
     }
 
@@ -3013,12 +3042,13 @@ input:focus {
         flex-direction: column;
     }
 
+
     .pic1 {
         margin-left: 10px;
     }
 
     .pic1 img {
-        width: 150px;
+        width: 250px;
     }
 
 
@@ -3033,12 +3063,31 @@ input:focus {
     }
 
     .main2 {
-        width: 280px;
+        width: 500px;
         justify-content: baseline;
         margin-left: 50px;
         margin-right: 30px;
         margin-top: 80px;
         justify-content: space-between;
+    }
+    .gog img {
+        width: 100px;
+    }
+    
+    .sla img {
+        width: 100px;
+    }
+    
+    .alt img {
+        width: 100px;
+    }
+    
+    .dro img {
+        width: 80px;
+    }
+    
+    .sho img {
+        width: 80px;
     }
 
     .sho {
@@ -3065,13 +3114,17 @@ input:focus {
         margin-left: -50px;
         margin-top: -10px;
     }
+    .main3c{
+        width: 300px;
+        font-size: 44px;
+    }
 
     .main3d {
-        width: 230px;
+        width: fit-content;
         margin-left: 20px;
-        font-size: 14px;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 30px;
         text-align: left;
 
     }
@@ -3155,58 +3208,88 @@ input:focus {
         text-align: left;
     }
 
-    .main4a {
-        width: 300px;
-        margin-left: -60px;
-        margin-right: -10px;
-    }
-
     .main4 {
         flex-direction: column;
         margin-top: 50px;
     }
 
+    .main4a {
+        width: 500px;
+        margin-left: -60px;
+        margin-right: -10px;
+    }
+    .main4a h4 {
+        color: rgb(231, 182, 223);
+        font-size: 44px;
+        font-weight: 650;
+        line-height: 70px;
+        text-align: center;
+    }
+    .main4a p {
+        color: rgb(218, 156, 99);
+        line-height: 2px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .mainab {
+        width: 450px;
+        margin-left: 50px;
+    }
+   
+
     .a4 {
-        width: 250px;
+        width: 450px;
         margin-left: -110px;
 
     }
 
 
     .a4a {
-        width: 250px;
+        width: 450px;
         height: 92px;
         flex-direction: column;
     }
 
     .a4aa {
 
-        width: 300px;
+        width: 400px;
         height: 15px;
         margin-top: 17px;
 
     }
-
-    .a4ab {
-        width: 300px;
-        height: 92px;
-        margin-top: 33px;
-        margin-left: 30px;
+    .a4aa h3 {
+        width: auto;
+        font-size: 25px;
+        color: white;
+        margin-top: 10px;
     }
-
     .a4ab p {
-        width: 300px;
-        font-size: 14px;
-        font-weight: 500;
+        margin-top: 10px;
+        width: 500px;
+        font-size: 24px;
+        font-weight: 00;
         margin-top: 20px;
         margin-right: -50px;
+        line-height: 30px;
+    }
 
+    .a4aaa{
+        width: 60px;
+    }
+
+    .a4ab {
+        width: 500px;
+        height: 92px;
+        margin-top: 50px;
+        margin-left: 30px;
     }
 
 
 
 
     .a5 {
+        margin-top: 120px;
         width: 300px;
         margin-left: -110px;
 
@@ -3219,10 +3302,16 @@ input:focus {
         flex-direction: column;
 
     }
+    .a5aa h3 {
+        width: auto;
+        font-size: 25px;
+        color: white;
+        margin-top: 10px;
+    }
 
     .a5aa {
 
-        width: 250px;
+        width: 400px;
         height: 15px;
         margin-top: 17px;
 
@@ -3230,12 +3319,23 @@ input:focus {
 
     .a5ab {
         width: 250px;
+        margin-top: 45px;
+    }
+    .a5ab p {
+        margin-top: 10px;
+        width: 500px;
+        font-size: 24px;
+        font-weight: 00;
+        margin-top: 20px;
+        margin-right: -50px;
+        line-height: 30px;
     }
 
+
     .a6 {
-        width: 250px;
+        width: 400px;
         margin-left: -110px;
-        margin-top: 105px;
+        margin-top: 160px;
 
 
     }
@@ -3248,17 +3348,36 @@ input:focus {
 
     .a6aa {
 
-        width: 250px;
+        width: 400px;
         height: 15px;
         margin-top: 17px;
 
     }
+    .a6aa h3 {
+        width: auto;
+        font-size: 25px;
+        color: white;
+        margin-top: 10px;
+    }
+    
 
     .a6ab {
-        width: 250px;
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .a6ab p {
+        margin-top: 10px;
+        width: 500px;
+        font-size: 24px;
+        font-weight: 00;
+        margin-top: 20px;
+        margin-right: -50px;
+        line-height: 30px;
     }
 
     .a7 {
+        margin-top: 80px;
         width: 250px;
         margin-left: -110px;
 
@@ -3272,14 +3391,32 @@ input:focus {
 
     .a7aa {
 
-        width: 250px;
+        width: 400px;
         height: 15px;
         margin-top: 17px;
 
     }
 
+    .a7aa h3 {
+        width: auto;
+        font-size: 25px;
+        color: white;
+        margin-top: 10px;
+    }
+
     .a7ab {
         width: 250px;
+        margin-top: 40px;
+
+    }
+    .a7ab p {
+        margin-top: 10px;
+        width: 500px;
+        font-size: 24px;
+        font-weight: 00;
+        margin-top: 20px;
+        margin-right: -50px;
+        line-height: 30px;
     }
 
     .fea {
@@ -3287,67 +3424,67 @@ input:focus {
     }
 
     .pfea img {
-        width: 250px;
-        margin-left: 55px;
+        width: 400px;
+        margin-left: 105px;
+        margin-top: 150px;
     }
 
     .pfeb {
-        width: 250px;
+        width: 450px;
         /* margin-right: 145px; */
-        margin-left: 50px;
+        margin-left: 80px;
         margin-top: 60px;
 
 
     }
 
     .pfeb h6 {
-        font-size: 12px;
+        font-size: 22px;
         font-weight: 500;
         text-align: left;
         line-height: 1px;
     }
 
     .pfeb h2 {
-        width: 300px;
-        font-size: 29px;
-        font-weight: 800;
-
+        width: 450px;
+        font-size: 49px;
+        font-weight: 750;
+        line-height: 65px;
     }
 
     .pfeb p {
-        width: 300px;
-        font-size: 14px;
+        width: 450px;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 33px;
         text-align: left;
-
     }
 
     .pfeb h5 {
-        width: 250px;
+        width: 450px;
+        font-size: 25px;
     }
 
 
     .g {
-        width: 280px;
-        height: 210px;
-        margin-left: 55px;
+        width: 450px;
+        height: 290px;
+        margin-left: 85px;
         flex-direction: column;
     }
 
     .ga p {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 400;
         margin-top: 20px;
     }
 
     .ga h2 {
-        width: 250px;
-        font-size: 20px;
+        width: fit-content;
+        font-size: 30px;
         font-weight: 800px;
-        line-height: 30px;
+        line-height: 45px;
         text-align: left;
-
     }
 
     .gb {
@@ -3362,24 +3499,23 @@ input:focus {
     }
 
     .h {
-        height: 2400px;
+        height: 3600px;
     }
 
     .ha {
-        width: 250px;
+        width: 430px;
     }
 
     .ha h2 {
-        width: 250px;
+        width: 430px;
         margin-left: -60px;
-        font-size: 42px;
-        font-weight: 630;
-        line-height: 70px;
+        font-size: 62px;
+        font-weight: 730;
+        line-height: 90px;
         letter-spacing: -0.04em;
     }
-
     .hb {
-        width: 300px;
+        width: 500px;
         margin-top: 100px;
         margin-left: 75px;
 
@@ -3388,20 +3524,20 @@ input:focus {
     .hba {
         width: 300px;
         height: 650px;
-
+       margin-top: 70px;
 
     }
 
     .hbb img {
-        width: 250px;
-        height: 180px;
+        width: 480px;
+        height: 300px;
 
 
     }
 
     .hbc {
-        height: 355px;
-        width: 250px;
+        height: 300px;
+        width: 480px;
     }
 
     .hbc h6 {
@@ -3414,15 +3550,15 @@ input:focus {
 
     .hca {
         margin-left: -0px;
-        margin-top: 60px;
-        width: 300px;
-        height: 130px;
+        margin-top: 180px;
+        width: 500px;
+        height: 400px;
 
     }
 
     .hcaa img {
-        width: 250px;
-        height: 120px;
+        width: 480px;
+        height: 200px;
         top: 3770.79px;
         left: 602.05px;
         display: grid;
@@ -3430,7 +3566,8 @@ input:focus {
     }
 
     .hcab {
-        width: 250px;
+        width: 480px;
+        height: 200px;
     }
 
     .hcb {
@@ -3458,8 +3595,8 @@ input:focus {
 
     .hcba img {
         margin-top: 40px;
-        width: 250px;
-        height: 120px;
+        width: 480px;
+        height: 200px;
         top: 3770.79px;
         left: 602.05px;
         display: grid;
@@ -3467,13 +3604,14 @@ input:focus {
     }
 
     .hcbb {
-        width: 250px;
+        width: 480px;
+        height: 200px;
     }
 
     .hcb {
         width: 250px;
         height: 210px;
-        margin-top: 200px;
+        margin-top: 270px;
 
     }
 
@@ -3499,9 +3637,13 @@ input:focus {
         margin-left: -50px;
     }
 
+    .hda{
+        margin-top: 350px;
+    }
+
     .hdaa img {
-        width: 250px;
-        height: 120px;
+        width: 480px;
+        height: 200px;
         top: 3770.79px;
         left: 602.05px;
         display: grid;
@@ -3510,13 +3652,14 @@ input:focus {
     }
 
     .hdab {
-        width: 250px;
+        width: 480px;
+        height: 200px;
     }
 
     .hdb {
         width: 200px;
         height: 210px;
-        margin-top: 125px;
+        margin-top: 365px;
 
     }
 
@@ -3536,8 +3679,8 @@ input:focus {
     }
 
     .hdba img {
-        width: 250px;
-        height: 120px;
+        width: 480px;
+        height: 200px;
         top: 3770.79px;
         left: 602.05px;
         display: grid;
@@ -3546,7 +3689,8 @@ input:focus {
     }
 
     .hdbb {
-        width: 250px;
+        width: 480px;
+        height: 200px;
     }
 
     .hdbb p {
@@ -3567,28 +3711,28 @@ input:focus {
 
 
     .i {
-        width: 391px;
+        width: 632px;
         height: 1200px;
     }
 
     .ia p {
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 67px;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 87px;
         letter-spacing: -0.02em;
         margin-right: 50px;
         margin-left: 50px;
-        margin-top: -20px;
+        margin-top: -20px
     }
 
     .ib button {
-        width: 170px;
-        height: 45px;
+        width: 230px;
+        height: 65px;
         font-size: 13px;
         line-height: 21.09px;
         text-align: center;
 
-        margin-left: 110px;
+        margin-left: 200px;
         border-radius: 4px;
     }
 
@@ -3602,7 +3746,7 @@ input:focus {
     }
 
     .ica img {
-        width: 88px;
+        width: 128px;
         height: 30px;
         margin-left: 60px;
         margin-top: 200px;
