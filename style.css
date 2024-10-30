@@ -116,7 +116,7 @@ body {
 }
 
 .cont p {
-    width: 700px;
+    width: 600px;
     size: 40px;
     font-size: 19px;
     line-height: 27px;
@@ -1207,6 +1207,7 @@ input:focus {
 .i {
     background: #031B34;
     height: 950px;
+    width: 1347px;
     margin-top: 50px;
 
 }
@@ -3138,19 +3139,20 @@ input:focus {
     }
 
     .main3g {
-        font-size: 16px;
-        width: 230px;
-        margin-top: 40px;
+        font-size: 40px;
+    width: 450px;
+    margin-top: 40px;
+    line-height: 55px;
 
     }
 
 
 
     .main3h {
-        font-size: 15px;
-        margin-left: 40px;
-        margin-top: -20px;
-        color: pink;
+        font-size: 20px;
+    margin-left: 30px;
+    margin-top: -30px;
+    color: pink;
 
     }
 
@@ -3162,29 +3164,47 @@ input:focus {
 
     .main3j {
         margin-left: 20px;
-        width: 250px;
-        line-height: 10px;
+        width: 450px;
+        line-height: 2px;
         /* margin-left: 70px; */
     }
 
     .main3j h2 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .main3j p {
-        line-height: 20px;
-    }
+        line-height: 40px;
+    font-size: 30px;
+  }
+  .main3ja {
+    width: 60px;
+    margin-top: 30px;
+    height: 4px;
+    background-color: rgb(226, 107, 157);
+  }
 
     .main3k {
         margin-left: 20px;
-        width: 250px;
+        width: 450px;
         line-height: 10px;
 
     }
 
     .main3k h2 {
-        font-size: 25px;
+        font-size: 45px;
     }
+    .main3k p{
+        line-height: 40px;
+    font-size: 30px;
+    }
+
+    .main3ka {
+        width: 60px;
+        margin-top: 30px;
+        height: 4px;
+        background-color: rgb(226, 107, 157);
+      }
 
 
 
@@ -3192,21 +3212,27 @@ input:focus {
 
     .main3l {
         margin-left: 20px;
-        width: 250px;
+        width: 450px;
         line-height: 10px;
     }
 
     .main3l h2 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .main3l p {
         color: rgb(179, 165, 165);
-        font-size: 16px;
+        line-height: 40px;
+    font-size: 30px;
         font-weight: 500;
-        line-height: 22px;
         text-align: left;
     }
+    .main3la {
+        width: 60px;
+        margin-top: 30px;
+        height: 4px;
+        background-color: rgb(226, 107, 157);
+      }
 
     .main4 {
         flex-direction: column;
@@ -3316,6 +3342,12 @@ input:focus {
         margin-top: 17px;
 
     }
+    .a5aaa {
+        width: 60px;
+        margin-top: 30px;
+        height: 5px;
+        background-color: rgb(226, 107, 157);
+      }
 
     .a5ab {
         width: 250px;
@@ -3359,6 +3391,12 @@ input:focus {
         color: white;
         margin-top: 10px;
     }
+    .a6aaa {
+        width: 60px;
+        margin-top: 30px;
+        height: 5px;
+        background-color: rgb(226, 107, 157);
+      }
     
 
     .a6ab {
@@ -3403,7 +3441,12 @@ input:focus {
         color: white;
         margin-top: 10px;
     }
-
+    .a7aaa {
+        width: 60px;
+        margin-top: 30px;
+        height: 5px;
+        background-color: rgb(226, 107, 157);
+      }
     .a7ab {
         width: 250px;
         margin-top: 40px;
@@ -3508,7 +3551,7 @@ input:focus {
 
     .ha h2 {
         width: 430px;
-        margin-left: -60px;
+        margin-left: -30px;
         font-size: 62px;
         font-weight: 730;
         line-height: 90px;
@@ -3524,7 +3567,7 @@ input:focus {
     .hba {
         width: 300px;
         height: 650px;
-       margin-top: 70px;
+       margin-top: 150px;
 
     }
 
@@ -3574,6 +3617,7 @@ input:focus {
         width: 300px;
         height: 210px;
         margin-left: 0px;
+        margin-top: 50px;
 
     }
 
@@ -3586,10 +3630,13 @@ input:focus {
     }
 
     .hcab h2 {
-        font-size: 15.32px;
-        font-weight: 800;
-        line-height: 25.29px;
-        margin-left: 20px;
+        font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.29px;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+    margin-right: 30px;
 
     }
 
@@ -3611,7 +3658,7 @@ input:focus {
     .hcb {
         width: 250px;
         height: 210px;
-        margin-top: 270px;
+        margin-top: 50px;
 
     }
 
@@ -3625,10 +3672,13 @@ input:focus {
     }
 
     .hcbb h2 {
-        font-size: 15.32px;
-        font-weight: 800;
-        line-height: 25.29px;
-        margin-left: 20px;
+        font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.29px;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+    margin-right: 30px;
     }
 
     .hd {
@@ -3672,10 +3722,13 @@ input:focus {
     }
 
     .hdab h2 {
-        font-size: 15.32px;
-        font-weight: 800;
-        line-height: 25.29px;
-        margin-left: 20px;
+        font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.29px;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+    margin-right: 30px;
     }
 
     .hdba img {
@@ -3702,17 +3755,20 @@ input:focus {
     }
 
     .hdbb h2 {
-        font-size: 15.32px;
-        font-weight: 800;
-        line-height: 25.29px;
-        margin-left: 20px;
+        font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.29px;
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+    margin-right: 30px;
     }
 
 
 
     .i {
         width: 632px;
-        height: 1200px;
+        height: 1300px;
     }
 
     .ia p {
@@ -3763,7 +3819,7 @@ input:focus {
         margin-top: 180px;
         align-items: center;
         color: white;
-        margin-left: 190px;
+        margin-left: 290px;
 
     }
 
@@ -3788,8 +3844,8 @@ input:focus {
         width: 100px;
         height: 150px;
         color: white;
-        margin-left: 70px;
-        margin-top: 180px;
+        margin-left: 160px;
+        margin-top: 150px;
     }
 
 
@@ -3798,8 +3854,8 @@ input:focus {
         width: 80px;
         height: 172px;
         color: white;
-        margin-top: 180px;
-        margin-left: 41px;
+        margin-top: 150px;
+        margin-left: 140px;
     }
 
     .icd h4 {
@@ -3823,7 +3879,7 @@ input:focus {
         height: 15px;
         margin-top: 150px;
         text-align: center;
-        margin-left: 100px;
+        margin-left: 220px;
 
     }
 
